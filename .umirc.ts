@@ -7,5 +7,8 @@ export default defineConfig({
   routes: [
     { path: '/', component: '@/pages/index' },
   ],
+  qiankun: {
+    slave: {},
+  },
   fastRefresh: {},
 });
